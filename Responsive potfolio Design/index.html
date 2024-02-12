@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul. Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon1.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c67651da0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href=""><h1><span class="r">R</span>ahul.</h1></a>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p class="animate">FullStack Developer / Youtuber</p>
+                <h1>Hi, I'm <span id="name">Rahul</span><br> From Delhi,India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/person.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="abouttitle">About Me</h1>
+                    <p>
+                        Hey there! I'm Rahul, a full-stack developer and content creator on YouTube.
+                        My passion lies in crafting seamless web applications, blending front-end finesse with robust back-end functionality.
+                        On my channel, I share coding tutorials, tech reviews, and industry insights with an enthusiastic touch. Explore my portfolio
+                        for a glimpse into my development projects and YouTube highlights. Join me on this dynamic journey as I navigate the ever-evolving
+                        realms of technology and content creation. Your visit is much appreciated, and I'm excited to have you here!
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-link" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                        <li><span>Frontend development</span><br>Creating and optimizing user interfaces using HTML, CSS, and JavaScript, with proficiency in front-end frameworks for enhanced web or app experiences.</li>
+                        <li><span>DSA Java</span><br>Implementing efficient data structures and algorithms using Java for optimized problem-solving and software development.</li>
+                        <li><span>C Programming</span><br>Efficient, versatile procedural language for system programming and embedded systems.</li>
+                        <li><span>GitHub Version Control</span><br>Demonstrating mastery in utilizing GitHub for version control, collaboration, and showcasing coding projects.</li>
+                        <li><span>VS Code </span><br>Efficient use of Visual Studio Code for streamlined software development and coding tasks.</li>
+                        <li><span>IntelliJ IDEA </span><br>Expert use of the IntelliJ IDE for advanced and efficient software development.</li>
+                        <li><span>Wordpress</span><br> Proficient in leveraging WordPress for website development, utilizing themes, plugins, and customization features.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                        <li><span>FunctionUp School of Technology (Trainee)</span><br>
+                            <li> Acquired knowledge of fundamental data structures such as arrays, linked lists, stacks, queues, trees, and hash tables.</li>
+                            <li>Studied and implemented common algorithms such as sorting (e.g., bubble sort, quicksort), searching (e.g., binary
+                                search), and traversal algorithms (e.g., depth-first search, breadth-first search).</li>
+                            <li>Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease
+                                time needed for team members to identify and fix bugs/issues.</li>
+                            <li>Explored asynchronous programming using callbacks, Promises, and Async/Await to handle asynchronous tasks
+                                efficiently.</li>
+                    </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                        <li><span>FunctionUp School of Technology(B.Tech-CSE)</span><br>Integrating technology and educational principles for enhanced learning experiences.</li>
+                        <li><span>12th(Senior Secondary Examination) CBSE Board</span><br>Attaining a 60% score in the 12th grade from the CBSE (Central Board of Secondary Education).</li>
+                        <li><span>10th(Secondary Examination) State(UP)Board</span><br>Achieving a 73% score in the 10th grade from the UP Board.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>🚀 Elevate your online presence with designs that captivate,
+                        engage, and leave a lasting impression. I am Rahul, a passionate
+                        web designer dedicated to transforming visions into visually
+                        stunning and functional digital experiences.</p>
+                        <a href="#">Know More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Front-End Development</h2>
+                    <p>In frontend development, I specialize in crafting visually appealing and
+                        interactive web interfaces. Using HTML, CSS, and JavaScript, I create
+                        seamless user experiences. With a focus on responsive design and modern
+                        frameworks like React, I ensure efficient and captivating websites. Join
+                        me in the dynamic realm of frontend development for a visually impactful journey.</p>
+                        <a href="#">Know More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-youtube"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+                        id molestias quia culpa minus nobis laborum! Magni a deserunt
+                        provident fugiat. Voluptatibus commodi nobis repellat corrupti
+                        maiores at, iure quis aspernatur labore atque reiciendis assumenda
+                        dignissimos deserunt, error natus repudiandae sed eum, temporibus tenetur dolorem.</p>
+                        <a href="#">Know More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------portfolio--------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/st-db2.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Student Database Management System</h3>
+                        <p>Developed a robust student database system, designing and
+                            implementing a structured schema to efficiently store and
+                            manage student information.</p>
+                            <a href="https://github.com/07Akashh/std-database.git"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfoliom-1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Responsive Design Portfolio</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Unde magnam beatae aspernatur
+                            dolore ullam tempora ipsa delectus quae nobis debitis?</p>
+                            <a href="https://github.com/07Akashh/Responsive-PortFolioDesign.git"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/travel-blog1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Travel Blog Website Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Unde magnam beatae aspernatur
+                            dolore ullam tempora ipsa delectus quae nobis debitis?</p>
+                            <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+<!-- -----------------------------contact--------------------------------------- -->
+<div id="contacts">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aonecreations1@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 90264 78761</p>
+                <div class="social-accounts">
+                    <a href="www.linkedin.com/in/rahul-thecoderwalks"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/07Akashh"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/aonecreationss/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@thecoderwalks"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/Rahul.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" id="" placeholder="Your Name" required>
+                    <input type="email" name="E-mail" id="" placeholder="Your E-mail" required>
+                    <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> &copy; Copyright,All Rights Reserved | Rahul</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-link");
+        var tabcontents=document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'paste-here-script-url'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message Sent Successfully!"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },1000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
